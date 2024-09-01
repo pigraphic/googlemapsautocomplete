@@ -1,0 +1,138 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #ede9e5;
+}
+
+.autocomplete-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.autocomlete-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.col-10 {
+    flex: 0 0 calc(((100 / 12) * 10) * 1%);
+    max-width: calc(((100 / 12 * 10) - (0 *2)) * 1%);
+    max-height: calc((100 - (0 *2)) * 1%);
+    margin: 0 0;
+    /* these are used to make all cols the same height */
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.col-12 {
+    flex: 0 0 calc(((100 / 12) * 12) * 1%);
+    max-width: calc(((100 / 12 * 12) - (0 *2)) * 1%);
+    max-height: calc((100 - (0 *2)) * 1%);
+    margin: 0 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.col-2 {
+    flex: 0 0 calc(((100 / 12) * 2) * 1%);
+    max-width: calc(((100 / 12 * 2) - (0 *2)) * 1%);
+    max-height: calc((100 - (0 *2)) * 1%);
+    margin: 0 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.col-3 {
+    flex: 0 0 calc(((100 / 12) * 3) * 1%);
+    max-width: calc(((100 / 12 * 3) - (0 *2)) * 1%);
+    max-height: calc((100 - (0 *2)) * 1%);
+    margin: 0 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.col-5 {
+    flex: 0 0 calc(((100 / 12) * 5) * 1%);
+    max-width: calc(((100 / 12 * 5) - (0 *2)) * 1%);
+    max-height: calc((100 - (0 *2)) * 1%);
+    margin: 0 0;
+    /* these are used to make all cols the same height */
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.flex-bottom {
+    align-items: center;
+}
+
+.offset-1 {
+    margin-left: 8.333333%;
+}
+
+.p2 {
+    padding: 0.5rem;
+}
+
+.y {
+    justify-content: flex-end;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:disabled {
+    background-color: #efefef;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
