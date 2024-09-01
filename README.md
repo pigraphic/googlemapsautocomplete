@@ -1,11 +1,15 @@
 # GoogleMapsAutocomplete
 
+<img src="https://github.com/pigraphic/googlemapsautocomplete/blob/main/static/screenshot.png?raw=true" width="100%" alt="Example screenshot"/>
+
+
 GoogleMapsAutocomplete is a Svelte component that integrates with the Google Maps Places API to provide address autocomplete functionality. This component is designed to be easily integrated into any Svelte application.
 
 ## Features
 
 * **Address Autocomplete**: Provides suggestions for addresses as you type.
 * **Customizable Fields**: Allows customization of the fields displayed, including address, city, postal code, province, country, and telephone.
+* **Multiple Address**: stores multiple address in an array.
 * **Transitions**: Utilizes Svelte transitions for smooth animations.
 * **Icons**: Includes Svelte Hero Icons for a better user interface.
 
